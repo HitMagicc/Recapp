@@ -19,8 +19,7 @@ export default function Home() {
       : "text-[#1C1D21] border-[#ECECF2] hover:bg-zinc-50"
     }`;
   return (
-    <div className="m-4 flex flex-col gap-5">
-      <Navbar />
+    <div className="flex flex-col gap-5">
       <div className="flex flex-col gap-4">
         <div>
           <h1 className="text-lg text-[#05004E] font-semibold">Today's Sales</h1>

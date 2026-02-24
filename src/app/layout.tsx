@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Poppins } from "next/font/google";
 import "./globals.css";
+import Navbar from "./components/Navbar";
 
 const PoppinsSans = Poppins({
   variable: "--font-poppins-sans",
@@ -31,15 +32,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link 
-          rel="stylesheet" 
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0" 
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0"
         />
       </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white`}
-      >
-        {children}
+      <body className={`${geistSans.variable} antialiased bg-[#F8F9FA]`}>
+        <div className="flex flex-col lg:flex-row min-h-screen">
+          <Navbar />
+          <main className="flex-1 p-4 lg:p-10">
+            {children}
+          </main>
+        </div>
       </body>
     </html>
   );
