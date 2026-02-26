@@ -1,9 +1,9 @@
 'use client';
 import { useState } from "react";
-import SalesChart from "./components/saleschart";
-import Scorecard from "./components/scorecard";
-import CustomDatePicker from "./components/CustomDatePicker";
-import Navbar from "./components/Navbar";
+import SalesChart from "../components/saleschart";
+import Scorecard from "../components/scorecard";
+import CustomDatePicker from "../components/CustomDatePicker";
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   // 1. State buat filter waktu
