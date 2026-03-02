@@ -10,7 +10,7 @@ export default function InputPemasukan() {
         <div>
             <div className="bg-[#FCFCFC] shadow-lg w-full h-16 justify-between px-5 items-center flex">
                 <Link
-                    href="/pengeluaran"
+                    href="/pemasukan"
                     className="w-10 h-10 flex items-center justify-center hover:bg-zinc-100 rounded-full transition-all active:scale-90"
                 >
                     <span className="material-symbols-outlined">
@@ -51,7 +51,7 @@ export default function InputPemasukan() {
                         <Table />
                     </div>
                     <div className="flex flex-row gap-2 justify-between align-middle">
-                        <Link href="/pengeluaran" className="border w-full flex justify-center py-1 text-black border-[#0A2041] rounded-xl items-center">
+                        <Link href="/pemasukan" className="border w-full flex justify-center py-1 text-black border-[#0A2041] rounded-xl items-center">
                             Cancel
                         </Link>
                         <button className="border w-full flex justify-center py-1 text-white bg-[#0A2041] border-[#0A2041] rounded-xl items-center">

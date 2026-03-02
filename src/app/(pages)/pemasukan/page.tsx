@@ -20,14 +20,14 @@ export default function Pemasukan() {
             <div className="flex flex-row justify-between items-center">
                 <div className="flex flex-col">
                     <div className="text-lg font-semibold text-[#05004E]">
-                        Data Pengeluaran
+                        Data pemasukan
                     </div>
                     <div className="text-xs font-normal text-[#737791]">
                         Expense Summary
                     </div>
                 </div>
                 <div>
-                    <Link href="/pengeluaran/input">
+                    <Link href="/pemasukan/input">
                         <button className="text-sm font-medium text-[#1BA488] px-1 py-2.5 rounded-lg border border-[#C3D3E2]" >+ Add New</button>
                     </Link>
                 </div>
@@ -51,7 +51,7 @@ export default function Pemasukan() {
             </div>
             <div className="min-h-96 max-h-screen rounded-2xl bg-[#FFFFFF] border-2 border-[#EAECF0] flex flex-col p-4 ">
                 <div className="text-lg font-semibold">
-                    Data Pengeluaran
+                    Data pemasukan
                 </div>
                 <Table/>
             </div>
