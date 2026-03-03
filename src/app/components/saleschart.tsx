@@ -33,6 +33,7 @@ export default function SalesChart() {
                     />
                     <YAxis hide />
                     <Tooltip
+                        labelClassName='text-black'
                         contentStyle={{ borderRadius: '10px', border: 'none', boxShadow: '0px 4px 20px rgba(0,0,0,0.1)' }}
                         formatter={(value: number | undefined) => value !== undefined ? `Rp ${value.toLocaleString('id-ID')}` : ''}
                     />

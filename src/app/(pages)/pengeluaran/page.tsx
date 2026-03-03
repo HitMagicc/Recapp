@@ -49,7 +49,7 @@ export default function Pengeluaran() {
                     </div>
                 </div>
             </div>
-            <div className="min-h-96 max-h-screen rounded-2xl bg-[#FFFFFF] border-2 border-[#EAECF0] flex flex-col p-4 ">
+            <div className="min-h-96 max-h-screen rounded-2xl bg-[#FFFFFF] border-2 border-[#EAECF0] flex flex-col p-4 gap-4">
                 <div className="text-lg font-semibold text-black">
                     Data Pengeluaran
                 </div>

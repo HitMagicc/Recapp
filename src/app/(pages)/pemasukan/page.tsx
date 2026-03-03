@@ -49,11 +49,11 @@ export default function Pemasukan() {
                     </div>
                 </div>
             </div>
-            <div className="min-h-96 max-h-screen rounded-2xl bg-[#FFFFFF] border-2 border-[#EAECF0] flex flex-col p-4 ">
-                <div className="text-lg font-semibold text-[#05004E]">
+            <div className="min-h-96 max-h-screen rounded-2xl bg-[#FFFFFF] border-2 border-[#EAECF0] flex flex-col p-4 gap-4">
+                <div className="text-lg font-semibold text-black">
                     Data Pemasukan
                 </div>
-                <Table/>
+                <Table />
             </div>
         </div>
     )
