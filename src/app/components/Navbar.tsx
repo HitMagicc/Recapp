@@ -28,7 +28,7 @@ export default function Navbar() {
                     <button onClick={() => setIsOpen(true)}>
                         <img src="/hamburger.svg" alt="hamburger menu" />
                     </button>
-                    <h1 className="font-semibold text-2xl">{currentItem.label}</h1>
+                    <h1 className="font-semibold text-2xl text-[#0A2041]">{currentItem.label}</h1>
                 </div>
                 <img src="/notification.svg" alt="notification icon" width={25} height={25}/>
             </div>

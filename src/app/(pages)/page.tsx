@@ -50,7 +50,7 @@ export default function Home() {
       </div>
       <div className="min-h-96 max-h-screen rounded-2xl bg-[#FFFFFF] border-2 border-[#EAECF0] flex flex-col p-4 ">
         <div className="flex flex-col gap-5">
-          <h1 className="text-lg font-bold">Your Sales</h1>
+          <h1 className="text-lg font-bold text-[#0A2041]">Your Sales</h1>
           <div className="flex gap-2 ">
             <button onClick={() => setActiveRange("Day")} className={getBtnStyle("Day")}>Day</button>
             <button onClick={() => setActiveRange("Week")} className={getBtnStyle("Week")}>Week</button>
@@ -58,7 +58,7 @@ export default function Home() {
             <CustomDatePicker onDateChange={(date) => setSelectedDate(date)} />
           </div>
           <div className="flex flex-col gap-1">
-            <h2>Total Income</h2>
+            <h2 className="text-[#8181A5]">Total Income</h2>
             <h1 className="font-bold text-2xl text-[#1BA488]">Rp 159,498,791.00</h1>
           </div>
           <div>

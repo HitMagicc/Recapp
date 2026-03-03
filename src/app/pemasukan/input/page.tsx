@@ -13,11 +13,11 @@ export default function InputPemasukan() {
                     href="/pemasukan"
                     className="w-10 h-10 flex items-center justify-center hover:bg-zinc-100 rounded-full transition-all active:scale-90"
                 >
-                    <span className="material-symbols-outlined">
+                    <span className="material-symbols-outlined text-[#0A2041]">
                         close
                     </span>
                 </Link>
-                <h1>
+                <h1 className="text-[#0A2041]">
                     Input Data Pemasukan
                 </h1>
                 <span className="material-symbols-outlined text-[#FCFCFC] w-10 h-10 flex items-center justify-center">
@@ -27,8 +27,8 @@ export default function InputPemasukan() {
             <div className="flex-1 p-4 lg:p-10">
                 <div className="flex flex-col gap-3">
                     <div className="flex flex-col gap-1.5">
-                        <h3 className="text-sm font-semibold">Jenis Pemasukan</h3>
-                        <select name="" id="" className="w-full rounded-xl border border-[#D0D5DD] px-5 py-3">
+                        <h3 className="text-sm font-semibold text-[#667085]">Jenis Pemasukan</h3>
+                        <select name="" id="" className="w-full rounded-xl border border-[#D0D5DD] text-[#667085] px-5 py-3">
                             <option value="">Bahan Baku</option>
                             <option value="">Operasional</option>
                         </select>

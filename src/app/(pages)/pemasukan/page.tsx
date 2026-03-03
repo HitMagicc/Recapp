@@ -20,7 +20,7 @@ export default function Pemasukan() {
             <div className="flex flex-row justify-between items-center">
                 <div className="flex flex-col">
                     <div className="text-lg font-semibold text-[#05004E]">
-                        Data pemasukan
+                        Data Pemasukan
                     </div>
                     <div className="text-xs font-normal text-[#737791]">
                         Expense Summary
@@ -41,7 +41,7 @@ export default function Pemasukan() {
                         <CustomDatePicker onDateChange={(date) => setSelectedDate(date)} />
                     </div>
                     <div className="flex flex-col gap-1">
-                        <h2>Total Expense</h2>
+                        <h2 className="text-[#8181A5]">Total Expense</h2>
                         <h1 className="font-bold text-2xl text-[#A4201B]">Rp 159,498,791.00</h1>
                     </div>
                     <div>
@@ -50,8 +50,8 @@ export default function Pemasukan() {
                 </div>
             </div>
             <div className="min-h-96 max-h-screen rounded-2xl bg-[#FFFFFF] border-2 border-[#EAECF0] flex flex-col p-4 ">
-                <div className="text-lg font-semibold">
-                    Data pemasukan
+                <div className="text-lg font-semibold text-[#05004E]">
+                    Data Pemasukan
                 </div>
                 <Table/>
             </div>
