@@ -10,7 +10,7 @@ export default function Barang() {
   const [selectedType, setSelectedType] = useState("Bahan Baku");
 
   const fileInputRef = useRef<HTMLInputElement>(null);
-  const BACKEND_URL = "http://192.168.1.154:8000"; 
+  const BACKEND_URL = "http://192.168.0.113:8000"; 
 
   const handleSaveToSheets = async () => {
     if (!data) return;
