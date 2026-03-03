@@ -41,7 +41,7 @@ export default function Pengeluaran() {
                         <CustomDatePicker onDateChange={(date) => setSelectedDate(date)} />
                     </div>
                     <div className="flex flex-col gap-1">
-                        <h2>Total Expense</h2>
+                        <h2 className="text-[#8181A5]">Total Expense</h2>
                         <h1 className="font-bold text-2xl text-[#A4201B]">Rp 159,498,791.00</h1>
                     </div>
                     <div>
@@ -50,7 +50,7 @@ export default function Pengeluaran() {
                 </div>
             </div>
             <div className="min-h-96 max-h-screen rounded-2xl bg-[#FFFFFF] border-2 border-[#EAECF0] flex flex-col p-4 ">
-                <div className="text-lg font-semibold">
+                <div className="text-lg font-semibold text-black">
                     Data Pengeluaran
                 </div>
                 <Table/>

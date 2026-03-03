@@ -40,6 +40,9 @@ export default function CustomDatePicker({ onDateChange }: { onDateChange: (d: s
 
                     <div className="absolute left-1/2 -translate-x-9/12 mt-2 z-50 bg-white border border-[#EAECF0] p-4 rounded-2xl shadow-2xl animate-in fade-in zoom-in-95 duration-200 min-w-max">
                         <style>{`
+                            .rdp-day{
+                                color:#7C86A2;
+                            }
                             .rdp-day_selected { 
                                 background-color: #1BA488 !important; 
                                 border-radius: 50%;
